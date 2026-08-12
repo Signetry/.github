@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile/assets/mark.svg" alt="Signetry" width="120" height="120"/>
+  <img src="profile/assets/mark.png" alt="Signetry" width="120" height="120"/>
 </p>
 
 <h1 align="center">Signetry</h1>
