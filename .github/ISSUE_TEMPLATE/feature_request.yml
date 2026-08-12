@@ -1,0 +1,34 @@
+name: Feature / detection rule request
+description: Propose a capability, detection rule, or integration for Signetry.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Signetry is source-available (All Rights Reserved). Contributions are welcome
+        under the CLA — you're credited, but ownership stays with the owner.
+  - type: input
+    id: component
+    attributes:
+      label: Component / repo
+      placeholder: "core · action · reviewer · eval · a plugin"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What can't you do today, or what should Signetry detect/govern that it doesn't?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: What should happen? For a detection rule, include the CWE, a vulnerable example, and a safe example that must NOT be flagged.
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contribution
+      options:
+        - label: I'd like to open a PR for this (I'll sign the CLA on my first PR).

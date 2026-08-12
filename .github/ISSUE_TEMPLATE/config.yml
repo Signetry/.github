@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions (questions, ideas, show & tell)
+    url: https://github.com/Signetry/signetry/discussions
+    about: Ask questions, propose ideas, or introduce yourself. Not for bug reports.
+  - name: 🔒 Report a security vulnerability (private)
+    url: https://github.com/Signetry/core/security/advisories/new
+    about: Never file security issues publicly — use private vulnerability reporting.
+  - name: 🌱 Good first issues
+    url: https://github.com/search?q=org%3ASignetry+label%3A%22good+first+issue%22+state%3Aopen&type=issues
+    about: Newcomer-friendly tasks across the Signetry org.

@@ -1,0 +1,41 @@
+name: Bug report
+description: Report a defect in a Signetry component.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. For **security vulnerabilities**, do NOT open a public issue —
+        use private reporting (see the repo's `SECURITY.md`).
+  - type: input
+    id: component
+    attributes:
+      label: Component / repo
+      placeholder: "core (signetry CLI) · action · reviewer · eval · a plugin"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "signetry-core v0.6.0 / action @v1 / commit SHA"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+        3. …
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      placeholder: "OS, Python version, CI runner, relevant SIGNETRY_* env vars (never paste secrets)"
