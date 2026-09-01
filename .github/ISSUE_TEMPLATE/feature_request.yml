@@ -5,8 +5,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Signetry is source-available (All Rights Reserved). Contributions are welcome
-        under the CLA — you're credited, but ownership stays with the owner.
+        Signetry is [open core](https://github.com/Signetry/signetry/blob/main/LICENSING.md):
+        the integrations are Apache-2.0, the kernel is BUSL-1.1 until 2030-08-31.
+        Contributions are accepted under the CLA and credited.
   - type: input
     id: component
     attributes:
